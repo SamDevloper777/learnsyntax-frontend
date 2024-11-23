@@ -1,8 +1,11 @@
 import React from 'react'
+import PublicHeader from './component/Public/PublicHeader'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <PublicHeader/>
+    </div>
   )
 }
 
